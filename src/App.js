@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import ExpenseItem from './components/ExpenseItem';
+// import ExpenseItem from './components/ExpenseItem';
+import ExpenseList from './components/Expenses/ExpenseList';
+import Card from './components/UI/Card';
 
 
 function App() {
@@ -15,10 +17,14 @@ function App() {
   ];
   return (
    <div >
-     <ExpenseItem title={expenses[0].title} price={expenses[0].price} date={expenses[0].date} id={expenses[0].id}></ExpenseItem>
+      <h2>Let's get started!</h2>
+      <Card className='expenses'>
+        <ExpenseList expenses={expenses} pippo='pippo'></ExpenseList>
+      </Card>
+     {/* <ExpenseItem title={expenses[0].title} price={expenses[0].price} date={expenses[0].date} id={expenses[0].id}></ExpenseItem>
      <ExpenseItem title={expenses[1].title} price={expenses[1].price} date={expenses[1].date} id={expenses[1].id}></ExpenseItem>
      <ExpenseItem title={expenses[2].title} price={expenses[2].price} date={expenses[2].date} id={expenses[2].id}></ExpenseItem>
-     <ExpenseItem title={expenses[3].title} price={expenses[3].price} date={expenses[3].date} id={expenses[3].id}></ExpenseItem>
+     <ExpenseItem title={expenses[3].title} price={expenses[3].price} date={expenses[3].date} id={expenses[3].id}></ExpenseItem> */}
     </div>
   );
 }
