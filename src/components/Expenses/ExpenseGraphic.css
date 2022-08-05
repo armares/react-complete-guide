@@ -9,6 +9,11 @@
     -o-border-radius: 30px;
     background-color:rebeccapurple;
     align-items:flex-end;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
 }
 .content{
     border-radius: 30px 30px 30px 30px;
