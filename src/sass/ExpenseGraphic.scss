@@ -1,0 +1,8 @@
+$s:'%';
+@for $var from 0 to 101 {
+    .percBar-#{$var}{
+        height:$var*1%;
+        width: 500px;
+    }
+}
+

@@ -1,0 +1,24 @@
+.bar{
+    height: 160px;
+    width: 17px;
+    border:1px solid violet;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color:rebeccapurple;
+    align-items:flex-end;
+}
+.content{
+    border-radius: 30px 30px 30px 30px;
+    background-color:green;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
+}
+.percBar-1{
+    height:1%;
+    width: 500px;
+}

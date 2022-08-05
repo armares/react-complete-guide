@@ -1,0 +1,27 @@
+.d-none{
+    display: none;
+}
+.mx-auto{
+    margin: auto;
+}
+.col-1{
+    width: 8,2%;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.fs-1{
+    font-size: 10px;
+}
+.c-dark{
+    color: black;
+}
+.larg{
+    font-weight: bolder;
+}
+.d-flex{
+    display: flex;
+}
+.c-light{
+    color: white;
+}
