@@ -24,10 +24,10 @@ const ExpenseItem = (props) => {
     <Card className='expense-item'>
       <ExpenseDate date={date}></ExpenseDate>
       <div className='expense-item__description'>
-        <h1>{title} {props.id}</h1>
+        <h1>{title}</h1>
         <div className='expense-item__price'>${props.price}</div>
       </div>
-      <button onClick={clickHandler}>change</button>
+      {/* <button onClick={clickHandler}>change</button> */}
     </Card>
   )
 }

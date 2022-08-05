@@ -7,13 +7,13 @@ import Card from './components/UI/Card';
 import NewExpense from './components/NewExpenses/NewExpense';
 
 const DUMMY_EXPENSES=[
-  {id:'e1',title:'Car insurance',price:290,date:new Date(2022,4,14)},
-  {id:'e2',title:'Car insurance',price:290,date:new Date(2021,5,14)},
-  {id:'e3',title:'Car insurance',price:290,date:new Date(2021,6,14)},
-  {id:'e4',title:'Car insurance',price:290,date:new Date(2022,7,14)},
-  {id:'e5',title:'Car insurance',price:290,date:new Date(2022,8,14)},
-  {id:'e6',title:'Car insurance',price:290,date:new Date(2021,9,14)},
-  {id:'e7',title:'Car insurance',price:290,date:new Date(2021,10,14)},
+  {id:'e1',title:'Car insurance',price:700,date:new Date(2022,4,14)},
+  {id:'e2',title:'Life insurance',price:300,date:new Date(2021,5,14)},
+  {id:'e3',title:'Home insurance',price:800,date:new Date(2021,6,14)},
+  {id:'e4',title:'Covid insurance',price:290,date:new Date(2022,7,14)},
+  {id:'e5',title:'Labor insurance',price:10,date:new Date(2022,8,14)},
+  {id:'e6',title:'Medical insurance',price:130,date:new Date(2021,9,14)},
+  {id:'e7',title:'Travel insurance',price:20,date:new Date(2021,10,14)},
 ];
 
 function App() {
